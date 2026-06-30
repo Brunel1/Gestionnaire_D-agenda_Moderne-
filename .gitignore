@@ -1,0 +1,54 @@
+# Variables d'environnement avec données sensibles
+.env
+
+# Base de données SQLite
+agenda.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Fichiers de log
+*.log
+agenda.log
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Matplotlib
+*.png
+*.jpg
+*.jpeg

@@ -1,0 +1,12 @@
+# Dépendances principales
+tkinter  # Interface graphique (généralement inclus avec Python)
+bcrypt==4.0.1  # Hachage des mots de passe
+pyjwt==2.8.0  # Gestion des tokens JWT
+python-dotenv==1.0.0  # Gestion des variables d'environnement
+requests==2.31.0  # Requêtes HTTP pour l'API cloud
+plyer==2.1.0  # Notifications multi-plateforme
+pydantic==2.5.0  # Validation des données
+icalendar==5.0.11  # Export iCalendar
+pytz==2023.3  # Gestion des fuseaux horaires
+matplotlib==3.8.0  # Graphiques pour les statistiques
+sv-ttk==2.6.0  # Thème moderne pour Tkinter
