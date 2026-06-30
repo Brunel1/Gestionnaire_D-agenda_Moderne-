@@ -5,9 +5,14 @@ from datetime import datetime, timedelta
 from typing import Optional, Dict
 from database_manager import db_connection
 import sqlite3
+import os
+from dotenv import load_dotenv
+
+# Chargement des variables d'environnement
+load_dotenv()
 
 # Configuration
-SECRET_KEY = "your-secret-key-here"  # À remplacer par une vraie clé sécurisée
+SECRET_KEY = os.getenv("SECRET_KEY", "default-secret-key-change-in-production")  # Clé secrète depuis l'environnement
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
