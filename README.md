@@ -120,7 +120,12 @@ Ce projet est sous licence MIT.
 
 ## 👨‍💻 Auteur
 
-Développé par Herve Brunel
+Développé par Hervé Brunel
+
+**Support du contact :**
+- Téléphone : +261 32 25 410 02
+- GitHub : https://github.com/Brunel1
+- Issues : Ouvrez une issue sur le dépôt GitHub
 
 ## 🙏 Remerciements
 
